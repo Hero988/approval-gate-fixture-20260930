@@ -27,3 +27,4 @@ jobs:
           agent_emails: agent-fixture@example.invalid
           agent_logins: claude[bot],claude-code[bot]
           protected_bases: main,release
+          exempt_path_prefixes: docs/
